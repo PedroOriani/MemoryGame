@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link
+      rel="icon"
+      href="./img/fiestaparrot.gif"
+    />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Parrots</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="screen1">
+        <div class="conteudo1">
+            <div class="inicial-texts">
+                <p>Bem vindo ao melhor jogo da memória </p>
+                <p>Com quantas cartas você quer jogar?</p>
+                <p>Lembrando que é um jogo da memória!</p>
+                <p>Escolha números pares entre 4 e 14!</p>
+                <p>Bom jogo :)</p>
+            </div>
+            <div class="gifs-input">
+                <div class="gifs1">
+                    <img class="gif1" src="./img/unicornparrot.gif" />
+                </div>   
+                <div class="div-input">
+                    <input type=text class="input" placeholder="">
+                    <button class="btn-confirm" onclick="howManyCards()">Confirmar</button>
+                </div>
+                <div class="gifs1">
+                    <img class="gif1" src="./img/unicornparrot.gif" /> 
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="screen2 hidden">
+        <div class="top-desktop">
+            <div class="title-desktop">PARROT CARD GAME</div>
+        </div>
+        <div class="top-mobile">
+            <div class="title-mobile">PARROT CARD<BR>GAME</div>
+        </div>
+        <div class="container">
+            <ul class="container-cards"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
