@@ -2,6 +2,10 @@
 box-sizing: border-box;
 }
 
+body{
+  height: 800px;
+}
+
 .screen1{
   width: 100%;
   height: 1000px;
@@ -88,6 +92,8 @@ p{
     background: none;
   }
 
+/*------------------SCREEN 2 ------------------------*/
+
 .top-mobile{
   display: none;
 
@@ -165,7 +171,7 @@ p{
 
 .container{
   width: 100%;
-  height: 840px;
+  height: 1040px;
 
   background-color: #eef9bf;
 
@@ -177,7 +183,7 @@ p{
 
 .container-cards {
   width: 1023px;
-  height: 540px;
+  height: 740px;
 
   display: flex;
   justify-content: space-between;
@@ -216,7 +222,7 @@ p{
 
 img {
   position: absolute;
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
@@ -279,5 +285,15 @@ img {
   .gif1{
     width: 50px;
     height: 50px;
+  }
+
+  .container{
+    height: 100%;
+  }
+  
+  .container-cards {
+    width: 375px;
+    height: 100%;
+    justify-content: space-around;
   }
 }
