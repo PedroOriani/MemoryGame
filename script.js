@@ -14,7 +14,7 @@ const cards = [];
 
 let card1, card2;
 let turned;
-let jogada = 0
+let plays = 0;
 
 function turnCard(clickedCard){
 

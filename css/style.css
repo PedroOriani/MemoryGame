@@ -4,6 +4,7 @@ box-sizing: border-box;
 
 body{
   height: 800px;
+  background-color: #eef9bf;
 }
 
 .screen1{
@@ -171,7 +172,7 @@ p{
 
 .container{
   width: 100%;
-  height: 1040px;
+  height: 840px;
 
   background-color: #eef9bf;
 
@@ -183,7 +184,7 @@ p{
 
 .container-cards {
   width: 1023px;
-  height: 740px;
+  height: 540px;
 
   display: flex;
   justify-content: space-between;
@@ -294,6 +295,6 @@ img {
   .container-cards {
     width: 375px;
     height: 100%;
-    justify-content: space-around;
+    justify-content: center;
   }
 }
