@@ -51,7 +51,7 @@ function generateFinalPage(){
         `
     }else{
         finalText.innerHTML += `
-        <p>Deve ser probelma mental!</p>
+        <p>Deve ser problema mental!</p>
         <p>Você acertou os ${nCards/2} pares em ${timer.innerHTML} segundos!</p>
         <p>Como alguem é tão ruim assim no jogo da memória?</p>
         <p>Clica ai e reinicia isso, uma batata termina o jogo antes que você</p>
